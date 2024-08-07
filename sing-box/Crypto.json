@@ -7,7 +7,6 @@
         "min-api.cryptocompare.com"
       ],
       "domain_suffix": [
-        "bitcointalk.org",
         "aex.com",
         "bibox.com",
         "bitfinex.com",
@@ -121,7 +120,6 @@
         "ethereum-magicians.org",
         "vitalik.ca",
         "ethfans.org",
-        "ethereum.cn",
         "ethereum.stackexchange.com",
         "etherscan.com",
         "parity.io",

@@ -9,7 +9,6 @@
         "battle.net",
         "battlenet.com",
         "blizzard.com",
-        "duolingo.cn",
         "duolingo.com",
         "lin.ee",
         "line.me",
@@ -103,7 +102,6 @@
         "bloglovin.com",
         "blogsmithmedia.com",
         "blogspot.hk",
-        "bloomberg.cn",
         "bloomberg.com",
         "books.com.tw",
         "boomtrain.com",
@@ -229,7 +227,6 @@
         "goodreaders.com",
         "goodreads.com",
         "gravatar.com",
-        "gstatic.cn",
         "gstatic.com",
         "gunsamerica.com",
         "gvt0.com",
@@ -662,9 +659,7 @@
         "webrtc.org",
         "v2ex.com",
         "vikacg.com",
-        "picjs.xyz",
-        "wheel-size.cn",
-        "chalungu.cn"
+        "picjs.xyz"
       ],
       "domain_keyword": [
         "duolingo",
@@ -678,8 +673,7 @@
         "instagram",
         "twitter",
         "whatsapp",
-        "google",
-        "dlercloud"
+        "google"
       ],
       "ip_cidr": [
         "13.32.0.0/16",

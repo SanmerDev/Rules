@@ -15,7 +15,6 @@
         "supportdownload.apple.com",
         "swcdn.apple.com",
         "updates-http.cdn-apple.com",
-        "safebrowsing.googleapis.com",
         "cm.steampowered.com",
         "ol.epicgames.com",
         "csgo.wmsj.cn",
@@ -37,12 +36,10 @@
         "steamusercontent-a.akamaihd.net",
         "steamuserimages-a.akamaihd.net",
         "tesla-cdn.thron.cn",
-        "tesla-cdn.thron.com",
-        "uplaypc-s-ubisoft.cdn.ubi.com"
+        "tesla-cdn.thron.com"
       ],
       "domain_suffix": [
         "ls.apple.com",
-        "dl.google.com",
         "msftconnecttest.com",
         "steamcontent.com",
         "steamserver.net",
@@ -94,29 +91,7 @@
       "process_name": [
         "storedownloadd",
         "v2ray",
-        "ss-local",
-        "UUBooster",
-        "aria2c.exe",
-        "BitComet.exe",
-        "fdm.exe",
-        "NetTransport.exe",
-        "qbittorrent.exe",
-        "Thunder.exe",
-        "transmission-daemon.exe",
-        "transmission-qt.exe",
-        "uTorrent.exe",
-        "WebTorrent.exe",
-        "aria2c",
-        "fdm",
-        "Folx",
-        "NetTransport",
-        "qbittorrent",
-        "qbittorrent-nox",
-        "Thunder",
-        "Transmission",
-        "uTorrent",
-        "WebTorrent",
-        "WebTorrent Helper"
+        "ss-local"
       ]
     }
   ]

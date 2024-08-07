@@ -1,7 +1,4 @@
 payload:
-  # > Forum
-  - DOMAIN-SUFFIX,bitcointalk.org
-
   # > Exchange
   - DOMAIN-SUFFIX,aex.com
   - DOMAIN-SUFFIX,bibox.com
@@ -106,25 +103,25 @@ payload:
   - PROCESS-NAME,OKX.exe
   - DOMAIN-KEYWORD,okx
 
-  # > asproex
+  # > Asproex
   - DOMAIN-SUFFIX,asproex.com
   - DOMAIN-SUFFIX,asproexapi.com
-      
-  # > bitflyer
+
+  # > Bitflyer
   - DOMAIN-SUFFIX,bitflyer.com
   - DOMAIN-SUFFIX,bitflyer.jp
-      
-  # > bitsquare
+
+  # > Bitsquare
   - DOMAIN-SUFFIX,bisq.io
   - DOMAIN-SUFFIX,bisq.network
   - DOMAIN-SUFFIX,bitsquare.io
-      
-  # > coinone
+
+  # > Coinone
   - DOMAIN-SUFFIX,coinone.co.kr
   - DOMAIN-SUFFIX,coinonecore.com
   - DOMAIN-SUFFIX,coinonecorp.com
-      
-  # > ethereum
+
+  # > Ethereum
   - DOMAIN-SUFFIX,devcon.org
   - DOMAIN-SUFFIX,ethereum.foundation
   - DOMAIN-SUFFIX,ethereum.org
@@ -138,22 +135,21 @@ payload:
   - DOMAIN-SUFFIX,ethereum-magicians.org
   - DOMAIN-SUFFIX,vitalik.ca
   - DOMAIN-SUFFIX,ethfans.org
-  - DOMAIN-SUFFIX,ethereum.cn
   - DOMAIN-SUFFIX,ethereum.stackexchange.com
   - DOMAIN-SUFFIX,etherscan.com
   - DOMAIN-SUFFIX,parity.io
   - DOMAIN-SUFFIX,ethernodes.org
-      
-  # > localbitcoins
+
+  # > Localbitcoins
   - DOMAIN-SUFFIX,localbitcoins.com
   - DOMAIN-SUFFIX,localbitcoinschain.com
 
-  # > zb
+  # > ZB
   - DOMAIN-SUFFIX,zb.app
   - DOMAIN-SUFFIX,zb.com
   - DOMAIN-SUFFIX,zb.io
   - DOMAIN-SUFFIX,zb.live
-      
+
   # > Analysis
   - DOMAIN-SUFFIX,aicoin.com
   - DOMAIN-SUFFIX,aimoon.com

@@ -1,5 +1,5 @@
 payload:
-  # > iqiyi & pps
+  # > IQiyi
   - DOMAIN-SUFFIX,a.ckm.iqiyi.com
   - DOMAIN-SUFFIX,ad.m.iqiyi.com
   - DOMAIN-SUFFIX,afp.iqiyi.com
@@ -8197,9 +8197,6 @@ payload:
   # > Bilibili
   - DOMAIN,miniapp.bilibili.com
   - DOMAIN,thirdparty.biliapi.com
-
-  # > ele
-  - DOMAIN,log.star.ele.me
 
   # > Netease
   - DOMAIN,ad.bn.netease.com

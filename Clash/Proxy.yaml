@@ -7,7 +7,6 @@ payload:
 
   # > Duolingo
   - DOMAIN-KEYWORD,duolingo
-  - DOMAIN-SUFFIX,duolingo.cn
   - DOMAIN-SUFFIX,duolingo.com
 
   # > Line
@@ -114,7 +113,6 @@ payload:
   - DOMAIN-SUFFIX,bloglovin.com
   - DOMAIN-SUFFIX,blogsmithmedia.com
   - DOMAIN-SUFFIX,blogspot.hk
-  - DOMAIN-SUFFIX,bloomberg.cn
   - DOMAIN-SUFFIX,bloomberg.com
   - DOMAIN-SUFFIX,books.com.tw
   - DOMAIN-SUFFIX,boomtrain.com
@@ -240,7 +238,6 @@ payload:
   - DOMAIN-SUFFIX,goodreaders.com
   - DOMAIN-SUFFIX,goodreads.com
   - DOMAIN-SUFFIX,gravatar.com
-  - DOMAIN-SUFFIX,gstatic.cn
   - DOMAIN-SUFFIX,gstatic.com
   - DOMAIN-SUFFIX,gunsamerica.com
   - DOMAIN-SUFFIX,gvt0.com
@@ -626,9 +623,6 @@ payload:
   - DOMAIN-SUFFIX,zaobao.com.sg
   - DOMAIN-SUFFIX,zeutch.com
   - DOMAIN-SUFFIX,zynamics.com
-
-  # > Force some domains which are fucked by GFW while resolving DNS,or do not respect the system Proxy
-
   - DOMAIN-KEYWORD,appledaily
   - DOMAIN-KEYWORD,beetalk
   - DOMAIN-KEYWORD,blogspot
@@ -688,15 +682,9 @@ payload:
   # > V2EX
   - DOMAIN-SUFFIX,v2ex.com
 
-  - DOMAIN-KEYWORD,dlercloud
-
   # > VikACG
   - DOMAIN-SUFFIX,vikacg.com
   - DOMAIN-SUFFIX,picjs.xyz
-
-  # > exception
-  - DOMAIN-SUFFIX,wheel-size.cn
-  - DOMAIN-SUFFIX,chalungu.cn
 
   # > Amazon
   - IP-CIDR,13.32.0.0/16,no-resolve

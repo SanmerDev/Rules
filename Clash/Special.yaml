@@ -18,10 +18,6 @@ payload:
   # > Epic
   - DOMAIN-KEYWORD,epicgames
 
-  # > Google
-  - DOMAIN,safebrowsing.googleapis.com
-  - DOMAIN-SUFFIX,dl.google.com
-
   # > Microsoft
   - DOMAIN-SUFFIX,msftconnecttest.com
 
@@ -34,27 +30,19 @@ payload:
   - DOMAIN,ol.epicgames.com
   - DOMAIN-SUFFIX,steamcontent.com
   - DOMAIN-SUFFIX,steamserver.net
-
   - DOMAIN-SUFFIX,steamchina.com
-
   - DOMAIN,csgo.wmsj.cn
   - DOMAIN,dota2.wmsj.cn
   - DOMAIN,wmsjsteam.com
-
   - DOMAIN,dl.steam.clngaa.com
   - DOMAIN,dl.steam.ksyna.com
-
   - DOMAIN,gstore.val.manlaxy.com
-
   - DOMAIN,st.dl.bscstorage.net
   - DOMAIN,st.dl.eccdnx.com
   - DOMAIN,st.dl.pinyuncloud.com
-
   - DOMAIN,steampipe.steamcontent.tnkjmec.com
-
   - DOMAIN,steampowered.com.8686c.com
   - DOMAIN,steamstatic.com.8686c.com
-
   - DOMAIN,steambroadcast.akamaized.net
   - DOMAIN,steamcdn-a.akamaihd.net
   - DOMAIN,steamcommunity-a.akamaihd.net
@@ -74,37 +62,11 @@ payload:
   - DOMAIN-SUFFIX,teslamotors.com.cn
   - DOMAIN-SUFFIX,ts.la
 
-  # > UUBooster
-  - PROCESS-NAME,UUBooster
-
   # > WiFiman
   - DOMAIN-SUFFIX,app-measurement.com
 
   # > Xunlei
   - DOMAIN-SUFFIX,xunlei.com
-
-  # > Download
-  - PROCESS-NAME,aria2c.exe
-  - PROCESS-NAME,BitComet.exe
-  - PROCESS-NAME,fdm.exe
-  - PROCESS-NAME,NetTransport.exe
-  - PROCESS-NAME,qbittorrent.exe
-  - PROCESS-NAME,Thunder.exe
-  - PROCESS-NAME,transmission-daemon.exe
-  - PROCESS-NAME,transmission-qt.exe
-  - PROCESS-NAME,uTorrent.exe
-  - PROCESS-NAME,WebTorrent.exe
-  - PROCESS-NAME,aria2c
-  - PROCESS-NAME,fdm
-  - PROCESS-NAME,Folx
-  - PROCESS-NAME,NetTransport
-  - PROCESS-NAME,qbittorrent
-  - PROCESS-NAME,qbittorrent-nox
-  - PROCESS-NAME,Thunder
-  - PROCESS-NAME,Transmission
-  - PROCESS-NAME,uTorrent
-  - PROCESS-NAME,WebTorrent
-  - PROCESS-NAME,WebTorrent Helper
 
   # > Private Tracker
   - DOMAIN-SUFFIX,audiences.me
@@ -134,10 +96,6 @@ payload:
   - DOMAIN-SUFFIX,tjupt.org
   - DOMAIN-SUFFIX,totheglory.im
   - DOMAIN-SUFFIX,audiences.me
-
   - DOMAIN-KEYWORD,announce
   - DOMAIN-KEYWORD,torrent
   - DOMAIN-SUFFIX,smtp
-
-  # > UBI
-  - DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com

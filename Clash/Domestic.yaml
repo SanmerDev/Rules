@@ -1,5 +1,4 @@
 payload:
-  # China Banks
   # > Agricultural Bank of China
   - DOMAIN-SUFFIX,abchina.com
   - DOMAIN-SUFFIX,abchina.com.cn
@@ -32,7 +31,6 @@ payload:
   - DOMAIN-SUFFIX,pingan.com
   - DOMAIN-SUFFIX,pingan.com.cn
 
-  # Type
   # > Beplay
   - DOMAIN-KEYWORD,beplay
 
@@ -305,8 +303,6 @@ payload:
   - DOMAIN-SUFFIX,zhimg.com
   - DOMAIN-SUFFIX,zimuzu.tv
   - DOMAIN-SUFFIX,zmz002.com
-
-  - IP-CIDR,1.255.62.0/24,no-resolve
 
   # > CN
   - DOMAIN-SUFFIX,gov.cn

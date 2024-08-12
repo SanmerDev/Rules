@@ -1,0 +1,67 @@
+[
+  {
+    "tag": "geoip-cn",
+    "format": "binary",
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs"
+  },
+  {
+    "tag": "geosite-geolocation-cn",
+    "format": "binary",
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-geolocation-cn.srs"
+  },
+  {
+    "tag": "geosite-category-ads",
+    "format": "binary",
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-ads.srs"
+  },
+  {
+    "tag": "geosite-category-dev",
+    "format": "binary",
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-dev.srs"
+  },
+  {
+    "tag": "geosite-category-media-cn",
+    "format": "binary",
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-media-cn.srs"
+  },
+  {
+    "tag": "geosite-category-porn",
+    "format": "binary",
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-porn.srs"
+  },
+  {
+    "tag": "geosite-category-social-media-!cn",
+    "format": "binary",
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-social-media-!cn.srs"
+  },
+  {
+    "tag": "geosite-apple",
+    "format": "binary",
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-apple.srs"
+  },
+  {
+    "tag": "geosite-cloudflare",
+    "format": "binary",
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cloudflare.srs"
+  },
+  {
+    "tag": "geosite-google",
+    "format": "binary",
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-google.srs"
+  },
+  {
+    "tag": "geosite-microsoft",
+    "format": "binary",
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-microsoft.srs"
+  },
+  {
+    "tag": "geosite-openai",
+    "format": "binary",
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-openai.srs"
+  },
+  {
+    "tag": "geosite-speedtest",
+    "format": "binary",
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-speedtest.srs"
+  }
+]

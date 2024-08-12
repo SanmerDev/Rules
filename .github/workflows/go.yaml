@@ -20,6 +20,4 @@ jobs:
           go-version: ^1.22
 
       - name: Build
-        run: |
-          mkdir clash-rules && cd clash-rules
-          cp -r ../rules.json . && go run -v ..
+        run: go run -v .

@@ -2,66 +2,79 @@
   {
     "tag": "geoip-cn",
     "format": "binary",
-    "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs"
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
+    "no_resolve": false
   },
   {
     "tag": "geosite-geolocation-cn",
     "format": "binary",
-    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-geolocation-cn.srs"
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-geolocation-cn.srs",
+    "no_resolve": true
   },
   {
     "tag": "geosite-category-ads",
     "format": "binary",
-    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-ads.srs"
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-ads.srs",
+    "no_resolve": true
   },
   {
     "tag": "geosite-category-dev",
     "format": "binary",
-    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-dev.srs"
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-dev.srs",
+    "no_resolve": true
   },
   {
     "tag": "geosite-category-media-cn",
     "format": "binary",
-    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-media-cn.srs"
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-media-cn.srs",
+    "no_resolve": true
   },
   {
     "tag": "geosite-category-porn",
     "format": "binary",
-    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-porn.srs"
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-porn.srs",
+    "no_resolve": true
   },
   {
     "tag": "geosite-category-social-media-!cn",
     "format": "binary",
-    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-social-media-!cn.srs"
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-category-social-media-!cn.srs",
+    "no_resolve": true
   },
   {
     "tag": "geosite-apple",
     "format": "binary",
-    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-apple.srs"
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-apple.srs",
+    "no_resolve": true
   },
   {
     "tag": "geosite-cloudflare",
     "format": "binary",
-    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cloudflare.srs"
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cloudflare.srs",
+    "no_resolve": true
   },
   {
     "tag": "geosite-google",
     "format": "binary",
-    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-google.srs"
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-google.srs",
+    "no_resolve": true
   },
   {
     "tag": "geosite-microsoft",
     "format": "binary",
-    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-microsoft.srs"
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-microsoft.srs",
+    "no_resolve": true
   },
   {
     "tag": "geosite-openai",
     "format": "binary",
-    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-openai.srs"
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-openai.srs",
+    "no_resolve": true
   },
   {
     "tag": "geosite-speedtest",
     "format": "binary",
-    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-speedtest.srs"
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-speedtest.srs",
+    "no_resolve": true
   }
 ]

@@ -15,7 +15,7 @@ import (
 )
 
 func boxToClash(rule *config.Rule, group *sync.WaitGroup) {
-	fmt.Println("url: " + rule.Url)
+	fmt.Println(rule.Tag + ": " + rule.Url)
 	response, err := http.Get(rule.Url)
 	if err != nil {
 		fmt.Println(err)
@@ -57,7 +57,7 @@ func boxToClash(rule *config.Rule, group *sync.WaitGroup) {
 		return
 	}
 
-	err = clash.EncodeRuleSet(box.ToClash(rules), file)
+	err = clash.EncodeRuleSet(box.ToClash(rules, rule.NoResolve), file)
 	if err != nil {
 		fmt.Println(err)
 		return

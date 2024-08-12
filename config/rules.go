@@ -6,9 +6,10 @@ import (
 )
 
 type Rule struct {
-	Tag    string `yaml:"tag"`
-	Format string `yaml:"format"`
-	Url    string `yaml:"url"`
+	Tag       string `yaml:"tag"`
+	Format    string `yaml:"format"`
+	Url       string `yaml:"url"`
+	NoResolve bool   `yaml:"no_resolve"`
 }
 
 type Rules []Rule

@@ -18,12 +18,12 @@ func domainSuffix(value string) clash.Rule {
 	return clash.NewDomainSuffix(value, "")
 }
 
-func srcIPCIDR(value string) (clash.Rule, error) {
-	return clash.NewIPCIDR(value, "", true, true)
+func srcIPCIDR(value string, noResolve bool) (clash.Rule, error) {
+	return clash.NewIPCIDR(value, "", true, noResolve)
 }
 
-func destIPCIDR(value string) (clash.Rule, error) {
-	return clash.NewIPCIDR(value, "", false, true)
+func destIPCIDR(value string, noResolve bool) (clash.Rule, error) {
+	return clash.NewIPCIDR(value, "", false, noResolve)
 }
 
 func srcPort(value uint16) clash.Rule {
@@ -63,17 +63,22 @@ func dynamic[T any](raw option.Listable[T], new func(T) (clash.Rule, error)) cla
 	return rules
 }
 
-func ToClash(rules []option.HeadlessRule) clash.RuleSet {
+func ToClash(rules []option.HeadlessRule, noResolve bool) clash.RuleSet {
 	var clashRules []clash.Rule
 	for _, rule := range rules {
 		if rule.Type != C.RuleTypeDefault {
 			continue
 		}
+		clashRules = append(clashRules, dynamic(rule.DefaultOptions.SourceIPCIDR, func(s string) (clash.Rule, error) {
+			return srcIPCIDR(s, noResolve)
+		})...)
+		clashRules = append(clashRules, dynamic(rule.DefaultOptions.IPCIDR, func(s string) (clash.Rule, error) {
+			return destIPCIDR(s, noResolve)
+		})...)
+
 		clashRules = append(clashRules, static(rule.DefaultOptions.Domain, domain)...)
 		clashRules = append(clashRules, static(rule.DefaultOptions.DomainKeyword, domainKeyword)...)
 		clashRules = append(clashRules, static(rule.DefaultOptions.DomainSuffix, domainSuffix)...)
-		clashRules = append(clashRules, dynamic(rule.DefaultOptions.SourceIPCIDR, srcIPCIDR)...)
-		clashRules = append(clashRules, dynamic(rule.DefaultOptions.IPCIDR, destIPCIDR)...)
 		clashRules = append(clashRules, static(rule.DefaultOptions.SourcePort, srcPort)...)
 		clashRules = append(clashRules, static(rule.DefaultOptions.Port, dstPort)...)
 		clashRules = append(clashRules, static(rule.DefaultOptions.ProcessName, processName)...)

@@ -76,5 +76,11 @@
     "format": "binary",
     "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-speedtest.srs",
     "no_resolve": true
+  },
+  {
+    "tag": "geosite-telegram",
+    "format": "binary",
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-telegram.srs",
+    "no_resolve": true
   }
 ]

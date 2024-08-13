@@ -31,7 +31,6 @@ jobs:
 
       - name: Push
         run: |
-          git branch -D clash || true
           git push origin --delete clash || true
           git checkout --orphan clash
           

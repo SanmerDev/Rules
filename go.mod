@@ -3,7 +3,7 @@ module github.com/SanmerDev/rules
 go 1.22
 
 require (
-	github.com/sagernet/sing-box v1.10.0-beta.3
+	github.com/sagernet/sing-box v1.10.0-beta.4
 	gopkg.in/yaml.v3 v3.0.1
 )
 

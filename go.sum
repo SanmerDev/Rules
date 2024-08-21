@@ -23,8 +23,8 @@ github.com/sagernet/quic-go v0.46.0-beta.4 h1:k9f7VSKaM47AY6MPND0Qf1KRN7HwimPg9z
 github.com/sagernet/quic-go v0.46.0-beta.4/go.mod h1:zJmVdJUNqEDXfubf4KtIOUHHerggjBduiGRLNzJspcM=
 github.com/sagernet/sing v0.5.0-beta.1 h1:THZMZgJcDQxutE++6Ckih1HlvMtXple94RBGa6GSg2I=
 github.com/sagernet/sing v0.5.0-beta.1/go.mod h1:ARkL0gM13/Iv5VCZmci/NuoOlePoIsW0m7BWfln/Hak=
-github.com/sagernet/sing-box v1.10.0-beta.2 h1:PHrFgUmLjgH179sx8gbMaLrRERmMhcGgTQUEnizTHH8=
-github.com/sagernet/sing-box v1.10.0-beta.2/go.mod h1:DWPJ2BDls4tPrMqPJ7uW7L9vNDlwSSsTK/UnFtWlaNI=
+github.com/sagernet/sing-box v1.10.0-beta.3 h1:tIoa2dr5dcdTlieLAoE8kY73P6kU8V90Gq/zBKPczhY=
+github.com/sagernet/sing-box v1.10.0-beta.3/go.mod h1:DWPJ2BDls4tPrMqPJ7uW7L9vNDlwSSsTK/UnFtWlaNI=
 github.com/sagernet/sing-dns v0.3.0-beta.14 h1:/s+fJzYKsvLaNDt/2rjpsrDcN8wmCO2JbX6OFrl8Nww=
 github.com/sagernet/sing-dns v0.3.0-beta.14/go.mod h1:rscgSr5ixOPk8XM9ZMLuMXCyldEQ1nLvdl0nfv+lp00=
 github.com/stretchr/testify v1.9.0 h1:HtqpIVDClZ4nwg75+f6Lvsy/wHu+3BoSGCbBAcpTsTg=

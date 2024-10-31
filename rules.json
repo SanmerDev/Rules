@@ -48,6 +48,12 @@
     "no_resolve": true
   },
   {
+    "tag": "geosite-bilibili",
+    "format": "binary",
+    "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-bilibili.srs",
+    "no_resolve": true
+  },
+  {
     "tag": "geosite-cloudflare",
     "format": "binary",
     "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cloudflare.srs",

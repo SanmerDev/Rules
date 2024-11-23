@@ -45,7 +45,7 @@ func boxToClash(rule *config.Rule, group *sync.WaitGroup) {
 			fmt.Println(err)
 			return
 		}
-		rules = plainRuleSet.Rules
+		rules = plainRuleSet.Options.Rules
 	default:
 		rules = []option.HeadlessRule{}
 	}

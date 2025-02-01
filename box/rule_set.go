@@ -4,6 +4,7 @@ import (
 	"github.com/SanmerDev/rules/clash"
 	C "github.com/sagernet/sing-box/constant"
 	"github.com/sagernet/sing-box/option"
+	"github.com/sagernet/sing/common/json/badoption"
 )
 
 func domain(value string) clash.Rule {
@@ -42,7 +43,7 @@ func processPath(value string) clash.Rule {
 	return clash.NewProcess(value, "", false)
 }
 
-func static[T any](raw option.Listable[T], new func(T) clash.Rule) clash.RuleSet {
+func static[T any](raw badoption.Listable[T], new func(T) clash.Rule) clash.RuleSet {
 	rules := make([]clash.Rule, len(raw))
 	for i, r := range raw {
 		rules[i] = new(r)
@@ -51,7 +52,7 @@ func static[T any](raw option.Listable[T], new func(T) clash.Rule) clash.RuleSet
 	return rules
 }
 
-func dynamic[T any](raw option.Listable[T], new func(T) (clash.Rule, error)) clash.RuleSet {
+func dynamic[T any](raw badoption.Listable[T], new func(T) (clash.Rule, error)) clash.RuleSet {
 	var rules []clash.Rule
 	for _, r := range raw {
 		v, _ := new(r)

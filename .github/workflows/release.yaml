@@ -3,7 +3,7 @@ name: Release
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 0 * * *"
+    - cron: "30 0 * * 0"
 
 permissions:
   contents: write
@@ -24,14 +24,14 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v5
         with:
-          go-version: ^1.22
+          go-version: ^1.23
 
       - name: Build
         run: go run -v .
 
       - name: Push
         run: |
-          git push origin --delete clash || true
+          git push origin --delete clash
           git checkout --orphan clash
           
           mv *.yaml $RUNNER_TEMP

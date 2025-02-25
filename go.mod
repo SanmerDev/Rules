@@ -4,7 +4,7 @@ go 1.22
 
 require (
 	github.com/sagernet/sing v0.6.1
-	github.com/sagernet/sing-box v1.11.3
+	github.com/sagernet/sing-box v1.11.4
 	gopkg.in/yaml.v3 v3.0.1
 )
 
